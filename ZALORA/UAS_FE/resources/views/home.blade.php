@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Noto+Sans+Telugu:wght@100..900&family=Poiret+One&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="../JS/model.js"></script>
-    <script src="../JS/navbarModel/navbar-model.js"></script>
+    <script src="{{ asset('JS/navbarModel/navbar-model.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/1975de5d56.js" crossorigin="anonymous"></script>
     <title>SOMETHING WEBSITE - Home Page</title>
